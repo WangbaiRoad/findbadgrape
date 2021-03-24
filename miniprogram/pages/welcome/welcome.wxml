@@ -1,0 +1,13 @@
+<view class="container">
+     <view>
+          <image class="avatar" src="../../images/avater/logo.png"> </image>
+     </view> 
+
+     <view>
+          <text class="motto">hello,给葡萄看个病吧</text>
+     </view>
+     
+      <view catchtap="chooseImage" data-category="camera" class="container-journey">
+          <text class="journey">   拍照识别葡萄虫害   </text>
+      </view>
+</view>

@@ -1,0 +1,15 @@
+<view class="post-container">
+  <view class="head">
+    <view class="swiper-comtainer">
+      <swiper indicator-dots autoplay interval="4000" circular vertical="{{false}}">
+        <swiper-item><image src="../../images/post/1.png" mode="scaleToFill"></image></swiper-item>
+        <swiper-item><image src="../../images/post/2.png"></image></swiper-item>
+        <swiper-item><image src="../../images/post/3.png"></image></swiper-item>
+      </swiper>
+    </view>
+  </view>
+  <view class="footer">
+      <text></text>
+  </view>
+
+</view>
