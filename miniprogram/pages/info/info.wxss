@@ -1,0 +1,8 @@
+/* pages/info/info.wxss */
+.body{
+  text-indent:2em;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 30rpx;
+  background: rgb(252, 226, 252);
+}

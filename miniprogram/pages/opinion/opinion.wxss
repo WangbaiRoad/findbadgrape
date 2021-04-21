@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+textarea{
+  display: block;
+  margin: 10rpx;
+  border: black 1px solid;
+}
+
+.container-button{
+  background-color: rgb(110, 204, 123);
+  color: rgb(241, 235, 221);
+  border:rgb(111, 194, 139) 1px solid;
+  padding: 10rpx 50rpx;
+  margin-top: 270rpx;
+  border-radius: 55rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  box-shadow: 1rpx 1rpx 6rpx 3rpx gray ;
+}
+.container-button:hover{
+  background: rgb(85, 160, 114);
+}
+/* .row_flex{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 590rpx;
+} */

@@ -1,0 +1,32 @@
+<view class="result-container">
+  <view class="head">
+    <view class="picture-comtainer">
+      <image  src="{{imgurl}}"> </image>
+    </view>
+  </view>
+  
+  <view class="body"> 
+    <text>{{result}}</text>
+  </view>
+ 
+  <view class="body"> 
+    <view class="way" >
+      <view catchtap="introduce" class="center"> 
+        {{tip}}
+      </view>
+    </view>
+  </view>
+
+  <view class="footer">
+    <view class="row_flex">
+      <view catchtap="save" class="container-button" >下载到相册</view>  
+     <view catchtap="advise" class="container-button" >问 题 反 馈</view>
+    </view>
+     
+  </view>
+ 
+</view>
+
+
+
+

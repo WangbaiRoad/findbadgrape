@@ -1,0 +1,33 @@
+<!--pages/G_info/G_info.wxml-->
+<view >
+  <view class="body" class="center"> 
+    <text  class="bold"> {{G.G_name}}</text>
+  </view>
+
+  <view class="center">病害特征</view>
+  <view class="body">
+    <text>{{G.G_symptom}}</text>
+  </view>
+
+  <view class="center">发病原因</view>
+  <view class="body">
+    <text> {{G.G_rule}}</text>
+  </view>
+
+  <view class="center">分布地区</view>
+  <view class="body">
+    <text> {{G.G_area}}</text>
+  </view>
+
+  <view class="center">防治方法</view>
+  <view class="body">
+    <text>{{G.G_control}}</text>
+  </view>
+
+  
+ 
+  
+ 
+ 
+</view>
+

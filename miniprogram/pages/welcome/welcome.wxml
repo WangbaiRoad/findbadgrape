@@ -1,13 +1,32 @@
+<view class="post-container">
+  <view class="head">
+    <view class="swiper-comtainer">
+      <swiper indicator-dots autoplay interval="4000" circular vertical="{{false}}">
+        <swiper-item><image src="{{lab1}}" mode="scaleToFill"></image></swiper-item>
+        <swiper-item><image src="{{lab2}}"></image></swiper-item>
+        <swiper-item><image src="{{school}}"></image></swiper-item>
+      </swiper>
+    </view>
+  </view>
+</view>
+<view  catchtap="showinfo" class="center">
+     <text>植物病虫害生物学国家重点实验室</text>
+</view>
+<view class="center">西安建筑科技大学</view>
+<view class="center">联合开发</view>
 <view class="container">
      <view>
           <image class="avatar" src="../../images/avater/logo.png"> </image>
+          <view class="center">葡萄病害智能识别</view>
      </view> 
-
-     <view>
-          <text class="motto">hello,给葡萄看个病吧</text>
+     <view class="footer">
+          <view class="row_flex">
+               <view catchtap="chooseImage" data-category="camera" class="container-button">
+                    <text class="journey">   拍 照 上 传   </text>
+               </view>
+               <view catchtap="chooseImage" data-category="album" class="container-button">
+                    <text class="journey">   从相册提取 </text>
+               </view>
+          </view>
      </view>
-     
-      <view catchtap="chooseImage" data-category="camera" class="container-journey">
-          <text class="journey">   拍照识别葡萄虫害   </text>
-      </view>
 </view>

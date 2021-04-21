@@ -1,0 +1,8 @@
+<view class="container">
+  <form action="" bindsubmit="formSubmit" >
+    <textarea name="opinionArea" id=""  placeholder="请输入意见" ></textarea>
+    <view class="row_flex">
+      <button formType='submit' class="container-button">提交</button>
+    </view>
+  </form>
+</view>
